@@ -36,13 +36,16 @@ public class Book {
 
     public static void main(String[] args) {
         Book pb = new Book();
-        pb.addContact("Max", "1234");
-        pb.addContact("G", "12334");
-        pb.addContact("S", "12334");
-        pb.addContact("V", "123455");
-        pb.addContact("M", "12346");
-        pb.addContact("M", "1222346");
-        pb.addContact("M", "132322346");
+        pb.addContact("Max", "+ 1 - 1234");
+        pb.addContact("Kazuya Mishima", "+1 - 12334");
+        pb.addContact("Paul Phoenix", "+1 - 1235534");
+        pb.addContact("Jin Kazama", "+7 - 123455");
+        pb.addContact("King", "+ 7 - 12346");
+        pb.addContact("King", "+ 7 - 22346");
+        pb.addContact("King", "+ 7 - 32346");
+        pb.addContact("Jin Kazama", "+7 - 1234555");
+        pb.addContact("Max", "+ 1 - 18234");
+        
 
         System.out.println("All contacts is: ");
         pb.printBook();
